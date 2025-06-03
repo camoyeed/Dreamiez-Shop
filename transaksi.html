@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Transaksi PC NCT Dream</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <center>
+        <h1>Form Pembelian PC NCT Dream 💻💚</h1>
+    </center>
+
+    <!-- MENU -->
+    <center>
+        <h3>
+            <a href="halamanproduk.html">Beranda</a> |
+            <a href="produk.html">Produk</a> |
+            <a href="transaksi.html">Transaksi</a> |
+            <a href="tentangaku.html">Tentang</a>
+        </h3>
+    </center>
+
+    <!-- KONTEN FORM -->
+    <table border="1" width="80%" align="center" cellpadding="10">
+        <tr>
+            <td align="center" colspan="2"><b>Yuk Isi Form Ini Buat Checkout!</b></td>
+        </tr>
+
+        <form action="#" method="post">
+            <tr>
+                <td>Nama Lengkap</td>
+                <td><input type="text" name="nama" placeholder="Masukkan nama kamu" required></td>
+            </tr>
+            <tr>
+                <td>Alamat Pengiriman</td>
+                <td><textarea name="alamat" rows="4" cols="30" placeholder="Tulis alamat lengkap ya!" required></textarea></td>
+            </tr>
+            <tr>
+                <td>No. HP / WA</td>
+                <td><input type="tel" name="telepon" placeholder="08xxxxxxxxxx" required></td>
+            </tr>
+            <tr>
+                <td>Pilih PC NCT Dream</td>
+                <td>
+                    <select name="produk" required>
+                        <option value="">-- Pilih PC --</option>
+                        <option value="jeno">PC Jeno 💚</option>
+                        <option value="mark">PC Mark 🔥</option>
+                        <option value="jaemin">PC Jaemin ✨</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Metode Pembayaran</td>
+                <td>
+                    <input type="radio" name="pembayaran" value="transfer" required> Transfer Bank <br>
+                    <input type="radio" name="pembayaran" value="cod"> COD (Bayar di Tempat)
+                </td>
+            </tr>
+            <tr>
+                <td>Ekstra Tambahan</td>
+                <td>
+                    <input type="checkbox" name="bonus" value="stiker"> Bonus Stiker NCT <br>
+                    <input type="checkbox" name="bonus" value="poster"> Poster Lipat Dreamies
+                </td>
+            </tr>
+            <tr>
+                <td>Tanggal Pemesanan</td>
+                <td><input type="date" name="tanggal" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Kirim Sekarang">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </form>
+    </table>
+
+    <!-- FOOTER -->
+    <center>
+        <p>&copy; 2025 Dreamiez Shop - All Rights Reserved</p>
+    </center>
+
+</body>
+</html>
